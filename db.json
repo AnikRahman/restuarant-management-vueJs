@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "exampleUser",
+      "email": "user@example.com",
+      "password": "securePassword",
+      "confirmPassword": "securePassword"
+    },
+    {
+      "id": 2,
+      "username": "anotherUser",
+      "email": "anotheruser@example.com",
+      "password": "strongPassword",
+      "confirmPassword": "strongPassword"
+    },
+    {
+      "id": "11c8",
+      "username": "Anik",
+      "email": "hranik9000@gmail.com",
+      "password": "123456Aa",
+      "confirmPassword": "123456Aa"
+    }
+  ]
+}
