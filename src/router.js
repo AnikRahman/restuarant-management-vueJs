@@ -1,6 +1,7 @@
 import HomePage from './components/HomePage.vue'
 import SignUp from './components/SignUp.vue'
 import SignIn from './components/SignIn.vue'
+import HeaderBar from './components/HeaderBar.vue'
 import {createRouter,createWebHistory} from 'vue-router'
 
 const routes =[
@@ -19,6 +20,11 @@ const routes =[
         name: 'SignIn',
         component:SignIn,
         path:'/sign-in'
+    },
+    {
+        name: 'HeaderBar',
+        component:HeaderBar,
+        path:'/header'
     }
 ];
 
