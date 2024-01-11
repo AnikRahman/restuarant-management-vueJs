@@ -1,5 +1,5 @@
 {
-  "user": [
+  "users": [
     {
       "id": 1,
       "username": "exampleUser",
@@ -20,6 +20,38 @@
       "email": "hranik9000@gmail.com",
       "password": "123456Aa",
       "confirmPassword": "123456Aa"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Restaurant 1",
+      "location": "City A",
+      "cuisine": "Cuisine A"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant 2",
+      "location": "City B",
+      "cuisine": "Cuisine B"
+    },
+    {
+      "id": 3,
+      "name": "Restaurant 3",
+      "location": "City C",
+      "cuisine": "Cuisine C"
+    },
+    {
+      "id": "fbc7"
+    },
+    {
+      "id": "0af4"
+    },
+    {
+      "id": "df30",
+      "name": "BurgerTown",
+      "location": "HelloBurgers",
+      "cuisine": "Burgers"
     }
   ]
 }
