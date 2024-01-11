@@ -24,6 +24,10 @@
   
         <button @click.prevent="signUp">Sign Up</button>
       </form>
+
+      <p>
+        <router-link to ="/sign-in">Go to Sign In</router-link>
+      </p>
     </div>
   </template>
   
@@ -54,6 +58,12 @@
        }
       },
     },
+    mounted(){
+      let user = localStorage.getItem('user-info');
+      if(user){
+        this.$router.push({name:'HomePage'})
+      }
+    }
   };
   </script>
   
